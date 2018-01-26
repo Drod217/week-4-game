@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<title>Game of Thrones Classic RPG Style</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+		<header>
+			<h1><strong>Game of Thrones RPG</strong></h1>
+		</header>
+		<div class="row">
+			<div class="col-xs-3">
+			</div>
+			<div id="content" class="col-xs-6">
+				<div id="character-images">
+					<div class = "image-padding padding option" id = "Jon" attack = "18" counter = "30" hp = "320" name = "King of the North">
+						<h2 class = "player-name">Jon Snow </h2>
+						<img src = "assets/images/JonSnow.jpg" alt = "Jon Snow" class = "player-img">
+						<br>
+						<span id = "stat-Jon"></span> <br>
+						<span id = "hp-Jon"></span>
+					</div>
+					<div class = "image-padding padding option" id = "Daenerys" attack = "16" counter = "25" hp = "310" name = "The Mother of Dragons">
+						<h2 class = "player-name">Daenerys Targaryen</h2>
+						<img src = "assets/images/Denarys.png" alt = "Daenerys" class = "player-img">
+						<br>
+						<span id = "stat-Daenerys"></span> <br>
+						<span id = "hp-Daenerys"></span>
+					</div>
+					<div class = "image-padding padding option" id = "NightKing" attack = "16" counter = "30" hp = "330" name = "White Walker King">
+						<h2 class = "player-name">Night King</h2>
+						<img src = "assets/images/WitchKing.jpg" alt = "Night King" class = "player-img">
+						<br>
+						<span id = "stat-NightKing"></span> <br>
+						<span id = "hp-NightKing"></span>
+					</div>
+					<div class = "image-padding padding option" id = "Greyjoy" attack = "16" counter = "15" hp = "390" name = "King of the Iron Islands">
+						<h2 class = "player-name">Euron Greyjoy</h2>
+						<img src = "assets/images/Greyjoy.jpg" alt = "Greyjoy" class = "player-img">
+						<br>
+						<span id = "stat-Greyjoy"></span> <br>
+						<span id = "hp-Greyjoy"></span>
+					</div>
+				</div>
+				<h3 id="instructions" class="blink WhiteFont">Choose your player</h3> 
+			</div>
+			<div class="col-xs-3">
+			</div>
+		</div>
+
+		<div class="row" id = "bottom">
+			<div class = "col-xs-3">
+				<img src = "assets/images/Sword.png" alt = "Sword" id = "Sword">
+				<h5>Attack</h5>
+			</div>
+			<div class="col-xs-6" id = "battlefield">
+				<div id = "your-character">
+					<h4>Your Player</h4>
+					<div id="your-character-img">
+					</div>	
+				</div>
+				<div id = "opponent">
+					<h4>Opponent</h4>
+					<div id="opponent-img">
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-3">
+			</div>
+		</div>
+	</body>
